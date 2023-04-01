@@ -1,0 +1,124 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: linear-gradient(to top, #0c3483 0%, #a2b6df 100%, #6b8cce 100%, #a2b6df 100%);
+    background-blend-mode: normal, lighten, soft-light;
+    min-height: 100%;
+    min-width: 1024px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+/* NAVBAR */
+.img_logo{
+    border-radius: 50%;
+    width: 32px;
+}
+
+/* INDEX */
+
+.container{
+    width: 95%;
+    position: relative;
+    display: block;
+    text-align: center;
+}
+.slogan{
+    width: 100%;
+    height: 420px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 15px;
+}
+
+.arriba{
+    position: absolute;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.arriba p{
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h4{
+    display: flex;
+    justify-content: center;
+    margin-left: 30px;
+    margin-top: 15px;
+    color: rgb(255, 236, 214);
+}
+p{
+    text-align: center;
+    color: rgb(255, 236, 214);
+}
+.barra {
+text-align: center;
+margin-bottom: 65px;
+}
+.barra img{
+    height: 450px;
+    width: 650px;
+    border: solid 3px silver;
+    filter: opacity(.8);
+}
+.barra img:hover{
+    filter: opacity(1);
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 5px rgba(192, 192, 192, 0.937);
+}
+.vista{
+    text-align: center;
+    margin-bottom: 65px;
+    }
+.vista img{
+    height: 300px;
+    width: 650px;
+    border: solid 3px silver;
+    filter: opacity(.8);
+}
+.vista img:hover{
+    filter: opacity(1);
+    border-radius:10px;
+    box-shadow: 0px 0px 5px 5px rgba(192, 192, 192, 0.937);
+}
+
+/* CERVEZAS */
+h2{
+    text-align: center;
+    color:rgb(255, 236, 214); ;
+}
+.cervezas{
+    background-color: goldenrod;
+    width: 95%;
+    text-align: center;
+    margin: 20px auto;
+    padding-top: 20px;
+
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1fr;
+    grid-template-rows: min-content min-content min-content min-content min-content min-content min-content min-content min-content min-content;
+    grid-area: 
+    "budva-logo budva-img des-budva"
+    "forst-logo forst-img des-forst"
+    "gambrinus-logo gambrinus-img des-gambrinus"
+    "kozel-logo kozel-img des-kozel"
+    "krusovice-logo krusovice-img des-krusovice"
+    "litovel-logo litovel-img des-litovel"
+    "mustang-logo mustang-img des-mustang"
+    "pilsner-logo pilsner-img des-pilsner"
+    "staropramen-logo staropramen-img des-staropramen";
+}
+
+.birras-logo img{
+    border-radius: 50%;
+}
+.birras p{
+    color: rgba(20, 5, 79, 0.796);
+}
