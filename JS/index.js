@@ -14,7 +14,7 @@ mayoriaDeEdad();
 
 let cont=0, nombre, edad, acumulador=0, promedio;
 function promedioEdadVisitantes(){
-    nombre=prompt("Ingrese su nombre");
+    nombre=prompt("Ingrese su nombre o -1 en caso de querer finalizar");
 while(nombre !=-1){
     cont=cont+1;
     edad=parseInt(prompt("Cuantos años tenes?"));
